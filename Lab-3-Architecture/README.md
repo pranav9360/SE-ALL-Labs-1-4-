@@ -1,13 +1,15 @@
 # Lab 3 — Architecture Design
 
-This folder contains the architecture selection justification in Markdown, transcribed from the supplied PDF.
+**Scenario:** Patient Health Record Consent Management System
 
-## Expected deliverables
+## Deliverables currently in this folder
 
-- `Architecture-Justification.pdf` — original justification PDF (still to be uploaded).
-- `Architecture-Justification.md` — searchable transcription.
-- `diagrams/Use-Case-Diagram.png` — use-case diagram image (still to be uploaded).
-- `diagrams/Component-Diagram.png` — component diagram image (still to be uploaded).
-- `Requirements.docx` — original requirements table (still to be uploaded; a Markdown transcription is in `../Lab-1-Requirements/Requirements.md`).
+- `Lab3_Patient_Consent_Written_Justification_D_Pranav_Sai (1).pdf` — original architecture selection justification.
+- `Architecture-Justification.md` — searchable Markdown transcription of the justification.
+- `LAB_03_DIAGRAM.png` — UML component diagram for the layered architecture.
 
-The diagrams illustrate the Patient Health Record Consent Management System and its layered architecture.
+The UML use-case diagram is stored in the Lab 1 folder as `Lab-1-Requirements/UML Diagram.png`.
+
+## Architecture summary
+
+The selected architecture is Layered Architecture, divided into Presentation, Business/Service, and Data/Integration layers. The justification explains security and consent enforcement, modularity, auditing, and performance considerations.
